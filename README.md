@@ -10,8 +10,8 @@ A small web app that allows user to have minimal paint features on a canvas.
 
 ===============================================================================
 ### Technologies used:
-Javascript, Bootstrap, JQuery
-IDE: Webstrom
+Javascript, Bootstrap, JQuery.
+* IDE: Webstrom
 
 ==============================================================================
 Application still in development..............
