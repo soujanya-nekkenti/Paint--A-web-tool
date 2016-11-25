@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>Epidemic Paint</title>
+</head>
+
+<body>
+
+<div class="container">
+    <canvas id="canvas"></canvas>
+</div>
+
+ <div class="container bar">
+        <div class="row" style="text-align:center">
+            <div>
+                <div class="radius" style="text-align:center">
+                    Pen Size <label id="penVal">10</label>
+                    <button class="btn btn-primary" id="btnDecrease">-</button>
+                    <button class="btn btn-primary" id="btnIncrease">+</button>
+                    <button class="btn btn-success" id="btnSave">Save</button>
+                    <a href="javascript:location.reload(true)" class="btn btn-info" id="btnClear">Clear</a>
+                    <button class="undo">Undo</button>
+                    <button class="redo">Redo</button>
+                   <input style="display:inline;" class="btn btn-info"  type='file' id="fileUpload"/>
+                    <div align="center"  id="changeColor"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/set_colors.js"></script>
+
+</body>
+<footer>
+
+</footer>
+</html>
